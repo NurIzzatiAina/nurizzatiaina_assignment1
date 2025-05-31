@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Step by Step Guide - Fusing Code, Visuals & Motion</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="overlay">
+        <header>
+            <h1>Fusing Code, Visuals & Motion: The Creative Technologist Path</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="steps.html">Step-by-Step Guide</a> |
+                <a href="inspiration.html">Inspiration & Resources</a> |
+                <a href="contact.html">My Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Step by Step Guide</h2>
+            <p>Here are the essential steps for me to become a successful Creative Technologist:</p>
+
+            <ol>
+                <li>Obtain a degree in New Media Communication at UniMAP.</li>
+                <li>Always learn and master web development technologies like HTML, CSS, and JavaScript.</li>
+                <li>Build a portfolio of personal web projects (like this) to showcase my creativity and technical skills.</li>
+                <li>Practicing my photography skills to create visually appealing content.</li>
+                <li>Study animation techniques and software such as Adobe After Effects or Blender.</li>
+                <li>Complete internships or freelance projects from related company to gain real-world experience.</li>
+                <li>Try attending workshops, courses, or online tutorials to continuously improve my skills.</li>
+                <li>Network with professionals in the industry through events and social media.</li>
+                <li>Applying for jobs or freelance gigs that combine development, photography, and animation.</li>
+                <li>Keep up with the latest trends and technologies in creative tech fields.</li>
+            </ol>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Zatie Ena's Career Journey</p>
+        </footer>
+        <button id="backToTop" title="Back to Top">⬆️</button>
+    </div>
+    <script>
+    const backToTopBtn = document.getElementById('backToTop');
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopBtn.style.display = "block";
+        } else {
+        backToTopBtn.style.display = "none";
+        }
+    };
+
+    backToTopBtn.onclick = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+    </script>
+</body>
+</html>
